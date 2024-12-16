@@ -1,12 +1,12 @@
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize(
-  "bgv", 
-  "root", 
-  "", 
+  "defaultdb", 
+  "avnadmin", 
+  "AVNS_fL59JzuEG5UwLjlV5I8", 
   {
-    host: "localhost", 
-    port: 3306, 
+    host: "mysql-2b830066-projectdbgk.e.aivencloud.com", 
+    port: 18025, 
     dialect: "mysql",
     dialectModule: require("mysql2"),
   }
